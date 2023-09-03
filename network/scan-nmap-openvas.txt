@@ -1,0 +1,104 @@
+# Nmap 7.93 scan initiated Mon Sep  4 02:00:14 2023 as: nmap -sVO --script=openvas.nse -o nmap-openvas.txt 192.168.1.0/24
+Nmap scan report for _gateway (192.168.1.1)
+Host is up (0.0034s latency).
+Not shown: 251 open|filtered n/a protocols (no-response)
+PROTOCOL STATE  SERVICE
+1        open   icmp
+2        closed igmp
+46       closed rsvp
+50       closed esp
+89       closed ospfigp
+MAC Address: 40:ED:00:54:8F:97 (Unknown)
+
+Nmap scan report for 192.168.1.100
+Host is up (0.0067s latency).
+Not shown: 252 closed n/a protocols (proto-unreach)
+PROTOCOL STATE         SERVICE
+1        open          icmp
+2        open|filtered igmp
+6        open          tcp
+17       open          udp
+MAC Address: 84:E3:42:DF:7B:42 (Tuya Smart)
+
+Nmap scan report for 192.168.1.101
+Host is up (0.25s latency).
+Not shown: 245 closed n/a protocols (proto-unreach)
+PROTOCOL STATE         SERVICE
+1        open          icmp
+2        open|filtered igmp
+4        open|filtered ipv4
+6        open          tcp
+17       open          udp
+41       open|filtered ipv6
+47       open|filtered gre
+50       open|filtered esp
+51       open|filtered ah
+108      open|filtered ipcomp
+136      open|filtered udplite
+MAC Address: 9E:90:A7:2A:78:20 (Unknown)
+
+Nmap scan report for 192.168.1.104
+Host is up (0.069s latency).
+Not shown: 253 open|filtered n/a protocols (no-response)
+PROTOCOL STATE SERVICE
+1        open  icmp
+6        open  tcp
+17       open  udp
+MAC Address: 3A:CE:66:8B:90:34 (Unknown)
+
+Nmap scan report for 192.168.1.107
+Host is up (0.24s latency).
+Not shown: 243 closed n/a protocols (proto-unreach)
+PROTOCOL STATE         SERVICE
+1        open          icmp
+2        open|filtered igmp
+4        open|filtered ipv4
+6        open          tcp
+17       open          udp
+41       open|filtered ipv6
+47       open|filtered gre
+50       open|filtered esp
+51       open|filtered ah
+103      open|filtered pim
+108      open|filtered ipcomp
+132      open          sctp
+136      open|filtered udplite
+MAC Address: FA:23:24:DB:6C:A1 (Unknown)
+
+Nmap scan report for 192.168.1.109
+Host is up (0.033s latency).
+Not shown: 253 open|filtered n/a protocols (no-response)
+PROTOCOL STATE SERVICE
+1        open  icmp
+6        open  tcp
+17       open  udp
+MAC Address: B6:7C:0E:05:1F:DD (Unknown)
+
+Nmap scan report for 192.168.1.110
+Host is up (0.11s latency).
+All 256 scanned ports on 192.168.1.110 are in ignored states.
+Not shown: 256 open|filtered n/a protocols (no-response)
+MAC Address: 00:45:E2:FD:66:47 (CyberTAN Technology)
+
+Nmap scan report for 192.168.1.113
+Host is up (0.037s latency).
+Not shown: 253 open|filtered n/a protocols (no-response)
+PROTOCOL STATE SERVICE
+1        open  icmp
+6        open  tcp
+17       open  udp
+MAC Address: 2C:33:7A:AA:DF:4F (Hon Hai Precision Ind.)
+
+Nmap scan report for Y5P (192.168.1.115)
+Host is up (0.000011s latency).
+Not shown: 249 closed n/a protocols (proto-unreach)
+PROTOCOL STATE         SERVICE
+1        open          icmp
+2        open|filtered igmp
+6        open          tcp
+17       open          udp
+103      open|filtered pim
+136      open|filtered udplite
+255      open|filtered unknown
+
+# Nmap done at Mon Sep  4 02:05:15 2023 -- 256 IP addresses (9 hosts up) scanned in 301.66 seconds

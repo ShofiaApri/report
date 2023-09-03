@@ -1,0 +1,132 @@
+# Nmap 7.93 scan initiated Mon Sep  4 01:59:34 2023 as: nmap -O -o ./scan.txt 192.168.1.0/24
+Nmap scan report for _gateway (192.168.1.1)
+Host is up (0.0083s latency).
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+53/tcp   open  domain
+80/tcp   open  http
+1900/tcp open  upnp
+MAC Address: 40:ED:00:54:8F:97 (Unknown)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: printer
+Running: Canon embedded
+OS CPE: cpe:/h:canon:imagerunner_c5185
+OS details: Canon imageRUNNER C5185 printer
+Network Distance: 1 hop
+
+Nmap scan report for 192.168.1.100
+Host is up (0.063s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE SERVICE
+6668/tcp open  irc
+MAC Address: 84:E3:42:DF:7B:42 (Tuya Smart)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.93%E=4%D=9/4%OT=6668%CT=1%CU=42607%PV=Y%DS=1%DC=D%G=Y%M=84E342%
+OS:TM=64F4CCF2%P=x86_64-pc-linux-gnu)SEQ(SP=89%GCD=1%ISR=CD%TI=RD%CI=I%II=R
+OS:I%TS=U)SEQ(SP=8A%GCD=1%ISR=CD%TI=I%CI=I%II=RI%SS=O%TS=U)OPS(O1=M5B4%O2=M
+OS:5B4%O3=M5B4%O4=M5B4%O5=M5B4%O6=M5B4)WIN(W1=111C%W2=111C%W3=111C%W4=111C%
+OS:W5=111C%W6=111C)ECN(R=Y%DF=N%T=FF%W=111C%O=M5B4%CC=N%Q=)T1(R=Y%DF=N%T=FF
+OS:%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=Y%DF=N%T=FF%W=111C%S=O%A=S+%F=AS%O=M5
+OS:B4%RD=0%Q=)T4(R=Y%DF=N%T=FF%W=111C%S=A%A=S%F=AR%O=%RD=0%Q=)T5(R=Y%DF=N%T
+OS:=FF%W=111C%S=A%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=N%T=FF%W=111C%S=A%A=S%F=AR
+OS:%O=%RD=0%Q=)T7(R=Y%DF=N%T=FF%W=111C%S=A%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N
+OS:%T=FF%IPL=38%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=S%T=FF%CD
+OS:=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for 192.168.1.101
+Host is up (0.049s latency).
+All 1000 scanned ports on 192.168.1.101 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 9E:90:A7:2A:78:20 (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for 192.168.1.104
+Host is up (0.0089s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: 3A:CE:66:8B:90:34 (Unknown)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.93%E=4%D=9/4%OT=49152%CT=1%CU=32728%PV=Y%DS=1%DC=D%G=Y%M=3ACE66
+OS:%TM=64F4CCF2%P=x86_64-pc-linux-gnu)SEQ(SP=101%GCD=1%ISR=105%TI=Z%CI=RD%I
+OS:I=RI%TS=21)OPS(O1=M5B4NW6NNT11SLL%O2=M5B4NW6NNT11SLL%O3=M5B4NW6NNT11%O4=
+OS:M5B4NW6NNT11SLL%O5=M5B4NW6NNT11SLL%O6=M5B4NNT11SLL)WIN(W1=FFFF%W2=FFFF%W
+OS:3=FFFF%W4=FFFF%W5=FFFF%W6=FFFF)ECN(R=Y%DF=Y%T=40%W=FFFF%O=M5B4NW6SLL%CC=
+OS:N%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=
+OS:40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=N%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0
+OS:%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=N%T=40%W=0%S=Z
+OS:%A=S%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=38%UN=0%RIPL=G%RID=G%RIPCK=G%R
+OS:UCK=0%RUD=G)IE(R=Y%DFI=S%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for 192.168.1.107
+Host is up (0.088s latency).
+All 1000 scanned ports on 192.168.1.107 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: FA:23:24:DB:6C:A1 (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for 192.168.1.109
+Host is up (0.013s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: B6:7C:0E:05:1F:DD (Unknown)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.93%E=4%D=9/4%OT=49152%CT=1%CU=40534%PV=Y%DS=1%DC=D%G=Y%M=B67C0E
+OS:%TM=64F4CCF2%P=x86_64-pc-linux-gnu)SEQ(SP=107%GCD=1%ISR=10C%TI=Z%CI=RD%I
+OS:I=RI%TS=21)OPS(O1=M5B4NW6NNT11SLL%O2=M5B4NW6NNT11SLL%O3=M5B4NW6NNT11%O4=
+OS:M5B4NW6NNT11SLL%O5=M5B4NW6NNT11SLL%O6=M5B4NNT11SLL)WIN(W1=FFFF%W2=FFFF%W
+OS:3=FFFF%W4=FFFF%W5=FFFF%W6=FFFF)ECN(R=Y%DF=Y%T=40%W=FFFF%O=M5B4NW6SLL%CC=
+OS:N%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=
+OS:40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=N%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0
+OS:%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=N%T=40%W=0%S=Z
+OS:%A=S%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=38%UN=0%RIPL=G%RID=G%RIPCK=G%R
+OS:UCK=0%RUD=G)IE(R=Y%DFI=S%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for 192.168.1.110
+Host is up (0.16s latency).
+All 1000 scanned ports on 192.168.1.110 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 00:45:E2:FD:66:47 (CyberTAN Technology)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for 192.168.1.113
+Host is up (0.017s latency).
+All 1000 scanned ports on 192.168.1.113 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 2C:33:7A:AA:DF:4F (Hon Hai Precision Ind.)
+Device type: firewall|general purpose|game console
+Running: Cisco AsyncOS 7.X, FreeBSD 10.X|6.X|7.X|8.X|9.X, Sony embedded
+OS CPE: cpe:/h:cisco:ironport_c650 cpe:/o:cisco:asyncos:7.0.1 cpe:/o:freebsd:freebsd:10.2 cpe:/h:sony:playstation_4 cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:7.0:beta2 cpe:/o:freebsd:freebsd:8.2 cpe:/o:freebsd:freebsd:9.1
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for Y5P (192.168.1.115)
+Host is up (0.00010s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT    STATE    SERVICE
+80/tcp  open     http
+443/tcp filtered https
+Device type: general purpose
+Running: Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6.32
+OS details: Linux 2.6.32
+Network Distance: 0 hops
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Sep  4 02:14:12 2023 -- 256 IP addresses (9 hosts up) scanned in 878.60 seconds
